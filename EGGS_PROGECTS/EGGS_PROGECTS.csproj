@@ -32,8 +32,37 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\قوالب Office المخصصة\dll\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v21.2.Core, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\قوالب Office المخصصة\dll\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\قوالب Office المخصصة\dll\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,14 +74,113 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ambers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ambers.Designer.cs">
+      <DependentUpon>ambers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Balance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balance.Designer.cs">
+      <DependentUpon>Balance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataAccessLayer.cs" />
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products.Designer.cs">
+      <DependentUpon>Products.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Requirment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Requirment.Designer.cs">
+      <DependentUpon>Requirment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers.Designer.cs">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="users.Designer.cs">
+      <DependentUpon>users.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ambers.resx">
+      <DependentUpon>ambers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Balance.resx">
+      <DependentUpon>Balance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products.resx">
+      <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,7 +189,23 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Requirment.resx">
+      <DependentUpon>Requirment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers.resx">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users.resx">
+      <DependentUpon>users.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -74,6 +218,147 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farm House_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg_carton_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash Register_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivered_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supplier_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users Settings_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-klaus-nielsen-6294284.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users Settings_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home Address_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\country_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users Settings_48px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update_file_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Package_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flour_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dead_chicken_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Year of Rooster_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty Box_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cardboard Box_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg_carton_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Average Price_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\low_price_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expensive Price_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_29_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partially_shipped_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how_many_quest_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ball Point Pen_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\job_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_rounded_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\identity_theft_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_reset_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هوليود  نــت.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sabq_import_uploads_material-file_5af9b4c560c62b3880808392_5af9b4bca70cd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %281%29.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
