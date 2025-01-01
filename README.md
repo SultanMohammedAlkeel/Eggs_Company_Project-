@@ -35,7 +35,6 @@ Eggs Project is a Windows Forms Application developed using **C#** and the **Gun
 - Production Data Entry  
   ![Production Data Entry](screenshots/production_data_entry.jpg)
 
-
 ---
 
 # مشروع إدارة البيض
@@ -60,5 +59,17 @@ Eggs Project is a Windows Forms Application developed using **C#** and the **Gun
 
 ## لقطات الشاشة
 
-![صفحة تسجيل الدخول](screenshots/login_page.png)
-![لوحة التحكم](screenshots/dashboard.png)
+- إدارة المخازن  
+  ![إدارة المخازن](screenshots/inventory.jpg)
+
+- طباعة الفواتير  
+  ![طباعة الفواتير](screenshots/invoice_printing.jpg)
+
+- لوحة إحصائيات  
+  ![لوحة إحصائيات](screenshots/statistics_dashboard.jpg)
+
+- إدارة المستخدمين  
+  ![إدارة المستخدمين](screenshots/user_management.jpg)
+
+- إضافة بيانات الإنتاج  
+  ![إضافة بيانات الإنتاج](screenshots/production_data_entry.jpg)
